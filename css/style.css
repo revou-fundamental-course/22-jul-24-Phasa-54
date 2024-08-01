@@ -1,0 +1,303 @@
+header img {
+    height: 35px;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    margin: 20px 10px 20px 10px;
+    width: 1200px;
+}
+
+.nav-header header {
+    padding:5px;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    padding: 5px;
+    padding-bottom: 15px;
+}
+
+.nav-menu a {
+    border:1px solid black;
+    align-content: center;
+    padding: 10px;
+}
+
+.home {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.call-us {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.judul {
+    height: 150px;
+}
+
+.judul h1 {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.judul p {
+    text-align: center;
+    padding: 10px 0px;
+    color: grey;
+}
+
+.judul p {
+    margin-bottom: -10px;
+}
+
+.container {
+    display: flex;
+    height:550px;
+    width: 1180px;
+    margin: 0px 30px 0 30px;
+}
+
+.con-kiri {
+    height: 100%;
+    width: 150%;
+    border-radius: 5px;
+}
+
+.con-kanan {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+
+.quote p {
+    font-style: italic;
+    color: grey;
+    padding-left: 22%;
+}
+
+.profil {
+    display: flex;
+    margin-left: 22%;
+
+}
+
+.profil img {
+    height: 50px;
+    width: 50px;
+}
+
+.profil-nama {
+    padding-left: 10px;
+    color:  rgb(60, 60, 78);
+}
+
+.kontak h2 {
+    padding-left: 75px;
+    padding-right: 100px;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.kontak p {
+    padding-left: 75px;
+    padding-right: 100px;
+    text-align: left;
+}
+
+.form {
+    margin-left: 75px;
+    height: 300px;
+    width: fit-content;
+    padding-top: 15px;
+}
+
+.con-kanan {
+    background-color: #edf0f4;
+}
+
+.form label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#name {
+    height: 35px;
+    border-radius: 5px;
+    margin:12px 0;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 260px;
+    font-size: 16px;
+}
+
+#email {
+    height: 35px;
+    border-radius: 5px;
+    margin:12px 0;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 260px;
+    font-size: 16px;
+}
+
+#travel {
+    height: 35px;
+    border-radius: 5px;
+    margin:12px 0;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 260px;
+    font-size: 16px;
+}
+
+button {
+    height: 50px;
+    width: 275px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(60, 60, 78);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.bawahan {
+    margin:0 30px 0 30px;
+    width: 700px;
+}
+
+.bawahan-satu {
+    color: rgb(60, 60, 78);
+    font-weight: bolder;
+}
+
+.bungkus {
+    display: flex;
+    padding-top: 20px;
+}
+
+.img1 {
+    height:50px;
+    width: 50px;
+    background-color: #edf0f4;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    color: grey;
+}
+
+.teks1 {
+    color: grey;
+    margin-left: 20px;
+    line-height: 25px;
+    width: 300px;
+}
+
+#name_error {
+    font-size: 14px;
+}
+
+#email_error {
+    font-size: 11px;
+}
+
+#travel_error {
+    font-size: 10px;
+}
+
+#pack {
+    height: 200px;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 200px;
+    background-color: #edf0f4;
+    width: 100%;
+}
+
+.tiga-atas {
+    display: flex;
+}
+
+.bungkus2 {
+    height: 200px;
+    width: 500px;
+    display: flex;
+    padding: 30px;
+}
+
+.img2 {
+    height:50px;
+    width: 100px;
+    background-color: #edf0f4;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    color: grey;
+}
+
+.teks2 {
+    padding-left:15px;
+}
+
+.teks2 p {
+    color: grey;
+}
+
+.tiga-bawah {
+    display: flex;
+}
+
+.bungkus3 {
+    height: 200px;
+    width: 500px;
+    display: flex;
+    padding: 30px;
+    border-bottom: 5px solid #edf0f4;
+}
+
+#call {
+    text-align: center;
+    padding: 75px;
+    border-bottom: 5px solid #edf0f4;
+}
+
+#call p {
+    width: 600px;
+    margin: auto;
+    padding: 30px 0 50px 0;
+    color: grey;
+}
+
+.footer {
+    border: 1px solid;
+    padding: 40px;
+}
+
+.footer img {
+    height: 35px;
+    margin-left: 50%;
+}
+
+.footer p {
+    text-align: center;
+    color:grey;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: black;
+}
